@@ -25,17 +25,27 @@ function secondPower(arr) {
 }
 
 function nthPower(arr, n) {
+    for (let i=0; i< arr.length; i++)
+    if (i % n === 0) {
+        console.log(arr[i]);
+    }
     // Return an array containing all indices that are powers of n
     // Your code here
 }
 
 function firstHalf(arr) {
+    for (let i=0; i < arr.length/2; i++) {
+        console.log(arr[i]);
+    }
     // Return an array containing the first half of an array
     // Include middle index on odd length arr
     // Your code here
 }
 
 function secondHalf(arr) {
+    for (let i= arr.length-1; i > arr.length /2 ; i--){
+        console.log(arr[i]):
+    }
     // Return an array containing the second half of an array
     // Exclude middle index on odd length arr
     // Your code here
