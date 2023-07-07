@@ -1,16 +1,27 @@
 function oddIndices(arr) {
     // Return an array containing all the odd indices in the array
     // Your code here
+    for (let i=0; i < arr.length; i +=2)
 }
 
 function oddReverse(arr) {
     // Return an array containing all the odd indices starting from the end
     // Your code here
+    for (let i=arr.length-1; i > arr.length; i -=2){
+        if (i % 2 ===1) {
+        console.log(arr[i])
+    }
+}
 }
 
 function secondPower(arr) {
     // Return an array containing all indices that are powers of 2
     // Your code here
+    for (let i=0; i < arr.length; i++){
+        if (i % 2 === 0) {
+            console.log(arr[1]);
+        }
+    }
 }
 
 function nthPower(arr, n) {
